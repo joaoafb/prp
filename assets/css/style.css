@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    user-select: none;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url('../img/backescuro.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1d1d1d;
+}
+
+header {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.logo {
+    cursor: pointer;
+    margin: 0 auto;
+    width: 450px;
+}
+
+.logo:hover {
+    transform: scale(110%);
+}
+
+.title {
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 40pt;
+    color: white;
+}
+
+.title:hover {
+    cursor: pointer;
+    color: #8900ff;
+}
+
+section {
+    background: rgba(24, 24, 24, 0.57);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50vh 15px 15px 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section h1 {
+    color: white;
+}
+
+section h2 {
+    color: white;
+}
+
+.cards {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vips {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vips img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.button {
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #8900ff;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: #8900ff;
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 10px;
+    background: transparent;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.2px);
+    -webkit-backdrop-filter: blur(2.2px);
+    border: 0;
+}
+
+.border:hover {
+    border: 0;
+    cursor: pointer;
+    transform: scale(101%);
+    filter: blur(-100%);
+}
+
+#money {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+#lock {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+#JBL {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.hr {
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.l-0 {
+    margin-left: -45px;
+}
+
+.list ul {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: left;
+    color: white;
+    list-style: none;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 10pt;
+}
+
+.valor {
+    color: white;
+    font-size: 30pt;
+    font-family: 'roboto';
+    font-weight: 600;
+}
+
+.txt {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #8900ff;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 10pt;
+}
+
+.alert {
+    color: white;
+    background-color: #8900ff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.titleshop {
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: 30pt;
+}
+
+.descshop {
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 15pt;
+}
+
+.linha {
+    background-color: white;
+    color: white;
+    height: 1px;
+    width: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    body {}
+    .logo {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 20pt;
+    }
+}
